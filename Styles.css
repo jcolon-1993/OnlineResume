@@ -198,6 +198,15 @@ header
   width: auto;
 }
 
+#project2
+{
+  display: block;
+  max-width: 500px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+}
+
 .work-experience .education
 {
   width: 100%;
