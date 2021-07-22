@@ -87,10 +87,7 @@ h1, h2
   margin: 0 auto;
   justify-content: center;
   overflow: hidden;
-
 }
-
-
 .photo
 {
   text-align: left;
@@ -109,7 +106,6 @@ h3
 }
 .divider > section
 {
-  border-bottom: 1px dashed #343434;
   padding: 25px 0;
 }
 .divider > section:last-of-type
@@ -189,8 +185,12 @@ header
 ------------------------------------*/
 .work-experience
 {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
   color: #fff;
   background: #757575;
+
 }
 .work-experience .job-item img
 {
